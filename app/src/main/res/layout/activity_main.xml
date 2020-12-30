@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_start_service_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start service 1"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_stop_service_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop service 1"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_start_service_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start service 2"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_stop_service_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop service 2"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_start_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start music"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_stop_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop music"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/text_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive data"
+        android:textSize="24sp"/>
+
+</LinearLayout>
